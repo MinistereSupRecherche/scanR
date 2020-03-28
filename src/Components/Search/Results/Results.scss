@@ -1,0 +1,35 @@
+@import '../../../style.scss';
+
+
+.ActiveFiltersContainer {
+  background-color: $scanrdeepblueColor;
+  color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.Select {
+  background-color: white;
+  color: $scanrdeepblueColor;
+  height: 41px;
+  border-radius: 8px;
+  border: 2px solid $scanrdeepblueColor;
+}
+
+.ResultHeader {
+  font-size: 1.3em;
+  height: 63px;
+  font-weight: 700;
+  color: $scanrdeepblueColor;
+}
+
+.card {
+  flex: 0 1 calc(50% - 4px);
+  align-self: stretch;
+}
+
+@media screen and (max-width: 991px) {
+  .card {
+    flex: 0 1 100%;
+  }
+}

@@ -1,0 +1,53 @@
+@import '../../../style.scss';
+
+.label {
+  font-size: 0.9em;
+  display: inline-block;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 0;
+  color: $scanrgreyColor;
+}
+
+// slider design
+.slider {
+  border-radius: 4px;
+  background-color: $scanrgreyColor;
+  height: 4px;
+}
+
+// thumbs design
+.thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid $scanrgreyColor;
+  background: $scanrlightgreyColor;
+  cursor: pointer;
+}
+.thumbHigh {
+  bottom: 32px;
+}
+.thumbLow {
+  bottom: 12px;
+}
+.thumbLabel {
+  position: relative;
+  top: 15px;
+  left: -8px;
+  font-size: 0.8em;
+  font-weight: 400;
+  font-style: italic;
+  color: $scanrgreyColor;
+}
+
+.histogramBar {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-left: 0.1em solid transparent;
+  border-right: 0.1em solid transparent;
+  background-color: transparent ;
+  height: 100%;
+  cursor: pointer;
+}

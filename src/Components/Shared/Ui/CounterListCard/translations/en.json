@@ -1,0 +1,21 @@
+{
+  "and": "and",
+  "authors-thesis": "other persons",
+  "authors": "other persons",
+  "authors.button.label": "List",
+  "authors.buttonToPage.label": "Show",
+  "authors.modal.title": "Additional authors list",
+  "author": "Thesis author",
+  "directeurthese": "Thesis supervisor",
+  "presidentjury": "Jury president",
+  "membrejury": "Jury member",
+  "rapporteur": "Rapporteur",
+  "other-inventors": "other inventors",
+  "inventor": "inventor",
+  "inventors-modal-title": "List of inventors",
+  "other-applicants": "other applicants",
+  "inventor": "applicant",
+  "applicants-modal-title": "List of applicants",
+  "affiliations-publication": "other affiliations",
+  "affiliations.modal.title": "Additional affiliations list"
+}

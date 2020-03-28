@@ -1,0 +1,42 @@
+@import '../../../../style.scss';
+
+.Header {
+  text-align: center;
+}
+
+.Logo {
+  color: $scanrgreyColor;
+  font-size: 1.2rem;
+}
+
+.Title {
+  color: $scanrgreyColor;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.Content {
+  margin-top: 36px;
+
+}
+.ButtonWithModal {
+  .Button {
+    color: $colorCardButton;
+    background-color: $bgColorCardButton;
+    font-weight: bold;
+    I {
+      display: inline-block;
+      padding-left: 16px;
+    }
+  }
+  .Button:hover, .Button:focus {
+    background-color: $scanrgreyColor;
+  }
+
+}
+
+UL {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 0.9rem;
+  color: $scanrdeepblueColor;
+}

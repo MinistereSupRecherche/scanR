@@ -1,0 +1,20 @@
+{
+  "Entity.ecosystem.title": "Ecosystème",
+  "Entity.ecosystem.selectTypesFilter.allLabel": "Tous",
+  "Entity.ecosystem.selectTypesFilter.title": "Filtrer par type de structure",
+  "Entity.ecosystem.selectTypesFilter.placeHolder": "productions identifiées",
+  "Entity.ecosystem.selectFrIntFilter.allLabel": "Tous",
+  "Entity.ecosystem.selectFrIntFilter.title": "Filtrer par type de collaboration",
+  "Entity.ecosystem.selectFrIntFilter.placeHolder": "collaborations identifiées",
+  "Entity.ecosystem.button": "Voir l'entité",
+  "Entity.ecosystem.frenchEntities": "Entités françaises",
+  "Entity.ecosystem.foreignEntities": "Entités étrangères",
+  "fr": "Entités françaises",
+  "en": "Entités étrangères",
+  "Entity.ecosystem.jointProductions": "Eléments en commun (Productions, projets, inventions)",
+  "dataCSVColumns.col1": "Entité",
+  "dataCSVColumns.col2": "Nombre de publications en commun",
+  "dataCSVColumns.col3": "Nombre de thèses en commun",
+  "dataCSVColumns.col4": "Nombre de projets en commun",
+  "dataCSVColumns.col5": "Nombre d'inventions en commun"
+}

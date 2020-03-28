@@ -1,0 +1,106 @@
+@import '../../../style.scss';
+
+.SearchObjectTab {
+  margin-top: 163px;
+}
+
+@media screen and (max-width: 991px) {
+  .ObjNav {
+    display: none !important;
+  }
+  .ObjetcsNavItem {
+    padding: 3px !important;
+    margin-right: 0px !important;
+    border-radius: 0px !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .TextToHide {
+    display: none;
+  }
+}
+
+.ObjNavMobile {
+  display: none;
+}
+
+.separator {
+  background-color: $scanrdeepblueColor;
+  border-top-right-radius: 8px;
+  height: 10px;
+}
+
+.ObjetcsNavItem {
+  flex: 0 1 calc(15% - 5px);
+  background-color: $scanrlightgreyColor;
+  margin-right: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: $scanrdeepblueColor !important;
+  text-align: center;
+}
+
+.ObjectsNavItemActive {
+  background-color: $scanrdeepblueColor;
+  color: white !important;
+}
+
+.ObjetcsNavItem:hover {
+  cursor: pointer;
+  background-color: $scanrgreyColor;
+  color: white !important;
+}
+
+.ResultsNavContainer {
+  background-color: $scanrdeepblueColor;
+  color: white;
+  border-top-left-radius: 0;
+  border-top-right-radius: 20px;
+  margin-bottom: 8px;
+}
+
+.ResultsNavItem {
+  background-color: white;
+  border-radius: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  color: $scanrblueColor;
+  cursor: pointer;
+  .ResultsNavItemIcon {
+    margin-left: 8px;
+    margin-right: 16px;
+  }
+}
+
+.ResultsNavItemCols {
+  flex: 0 1 calc(33% - 5px);
+}
+@media screen and (max-width: 991px) {
+  .ResultsNavItemCols {
+    flex: 0 1 calc(50% - 5px);
+  }
+  .ResultsNavContainer {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-bottom: 8px;
+  }
+}
+
+.ResultsNavItemActive {
+  background-color: $scanrblueColor;
+  border-radius: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  color: white;
+  font-weight: 500;
+}
+.ResultsNavItem:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px $scanrlightgreyColor;
+}

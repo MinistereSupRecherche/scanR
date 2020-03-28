@@ -1,0 +1,22 @@
+{
+  "and": "et",
+  "authors-thesis": "autres personnes",
+  "authors-publication": "autres auteurs",
+  "authors.button.label": "Liste",
+  "authors.buttonToPage.label": "Voir sa fiche",
+  "authors.modal.title": "Liste des auteurs supplémentaires",
+  "author-publication": "Auteur",
+  "author-thesis": "Auteur de la thèse",
+  "directeurthese-thesis": "Directeur de thèse",
+  "presidentjury-thesis": "Président du jury",
+  "membrejury-thesis": "Membre du jury",
+  "rapporteur-thesis": "Rapporteur",
+  "other-inventors": "autres inventeurs",
+  "inventor": "inventeur",
+  "inventors-modal-title": "Liste des inventeurs",
+  "other-applicants": "autres déposants",
+  "inventor": "déposant",
+  "applicants-modal-title": "Liste des déposants",
+  "affiliations-publication": "autres affiliations",
+  "affiliations.modal.title": "Liste des affiliations supplémentaires"
+}

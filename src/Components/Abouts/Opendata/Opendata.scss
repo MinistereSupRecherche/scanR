@@ -1,0 +1,38 @@
+@import '../../../style.scss';
+
+.CardWithButton {
+  color: white;
+}
+
+.Opendata {
+  padding: 0;
+  margin: 0;
+
+  .Content {
+    padding-top: $otherPagesPaddingTop;
+    padding-bottom: $otherPagesPaddingBottom;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: 50%; /* version standardisée */
+    background-color: $scanrlightgreyColor;
+    background-position: bottom 0 left 0;
+  }
+
+  .Plateforme {
+  }
+
+  .Api {
+    background-color: $scanrlightgreyColor;
+    box-shadow: inset 0px 20px 20px 0px $scanrmiddlegreyColor !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .ThreeCards {
+    padding-top:30px;
+    padding-bottom:30px;
+  }
+
+
+  }

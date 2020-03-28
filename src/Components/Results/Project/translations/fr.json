@@ -1,0 +1,28 @@
+{
+  "Project.informations": "Projet",
+  "Project.productions": "Productions",
+  "Project.participants": "Participants",
+  "Project.financial": "Financement",
+  "Project.description": "Description",
+  "Project.programs": "Programmes",
+  "Project.similars": "Projets similaires",
+
+  "Project.Informations.Identity.name": "Titre",
+  "Project.Informations.Identity.title": "Identité",
+  "Project.Informations.Identity.identifier": "Identifiant",
+  "Project.Informations.Status.title": "Statut",
+  "Project.Informations.Status.startDate": "Date de début",
+  "Project.Informations.Status.endDate": "Date de fin",
+  "Project.Financial.total": "Budget total",
+  "Project.Financial.financed": "Financement de l'agence:",
+  "Project.Financial.money": "Budget du projet",
+  "Project.Programs.call": "Appel à projet -- {year}",
+  "Project.Programs.action": "Outil de financement",
+  "Project.Programs.topic": "Topic",
+  "Project.Programs.priorities": "Priorités",
+
+  "Project.ParticipantsRow.coordinator": "Coordinateur",
+  "Project.ParticipantsRow.noAddress": "Participant non identifié",
+  "Project.PileCard.over": "Terminé",
+  "Project.PileCard.running": "En cours"
+}

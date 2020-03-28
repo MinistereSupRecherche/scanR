@@ -1,0 +1,83 @@
+@import '../../../../style.scss';
+
+.CounterListCard {
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+  height: 160px;
+
+  .Logo {
+    padding-top: 16px;
+    color: $scanrgreyColor;
+  }
+
+  .Title {
+    color: $scanrgreyColor;
+    font-style: italic;
+    font-size: 0.9rem;
+    padding-top: 8px;
+  }
+
+  .Counter {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0;
+    SPAN {
+      font-size: 1rem;
+      font-weight: normal;
+    }
+  }
+
+  .Label {
+    padding: 8px;
+    line-height: 22px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+}
+.Default {
+  color: $scanrdeepblueColor;
+  background-color: white;
+}
+.Persons {
+  color: white;
+  background-color: $personColor !important;
+}
+.Entity {
+  color: $entitiesColor;
+  background-color: $scanrgreyColor !important;
+}
+.MiddleGrey {
+  color: $scanrdeepblueColor;
+  background-color: $scanrmiddlegreyColor !important;
+}
+
+.ModalLabel {
+  color: $scanrdeepblueColor;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 6px 0 0 0;
+  text-transform: capitalize;
+}
+.Role {
+  padding: 6px 8px 0 0;
+  margin: 0;
+  color: $scanrdeepblueColor;
+  font-style: italic;
+}
+
+.Button {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.Ul {
+  list-style: none;
+}

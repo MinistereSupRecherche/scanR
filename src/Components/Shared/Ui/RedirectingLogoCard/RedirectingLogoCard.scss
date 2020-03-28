@@ -1,0 +1,20 @@
+@import '../../../../style.scss';
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 15px;
+  margin: 6px;
+  position: relative;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

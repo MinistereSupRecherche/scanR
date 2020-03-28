@@ -1,0 +1,30 @@
+@import '../../../style.scss';
+
+
+.blanc {
+  background-color: white;
+}
+.gris {
+  background-color: #e9ecf1;
+}
+
+.headers > p{
+  color: $scanrdeepblueColor;
+}
+
+.headers > h2 {
+  line-height: 0.85;
+  color: $scanrdeepblueColor;
+  font-weight: 700;
+}
+
+.card {
+  flex: 0 1 calc(33% - 2px);
+  align-self: stretch;
+}
+
+@media screen and (max-width: 991px) {
+  .card {
+    flex: 0 1 100%;
+  }
+}

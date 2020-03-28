@@ -1,0 +1,37 @@
+@import '../../../../style.scss';
+
+.card {
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  min-height: 150px;
+
+  .Title {
+    color: $scanrgreyColor;
+    font-style: italic;
+    font-size: 0.9rem;
+    padding-top: 12px;
+    padding-bottom: 8px;
+  }
+}
+
+.Pile {
+  border-radius: 5px;
+  border: 7px solid;
+  padding: 0.15em;
+  height: 2.5em;
+  width: 6.5em;
+  margin-top: 0.5em;
+
+}
+.PileExtend {
+  margin-top: 0.5em;
+  margin-left: -3px;
+  height: 1em;
+  width: 10px;
+  border-radius: 5px;
+}
+.PileFill {
+  height: 100%;
+}

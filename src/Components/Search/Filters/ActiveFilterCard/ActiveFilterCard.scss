@@ -1,0 +1,49 @@
+@import '../../../../style.scss';
+
+.ActiveFiltersContainer {
+  background-color: $scanrdeepblueColor;
+  color: white;
+  max-width: 100%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+@media screen and (max-width: 993px) {
+  .ActiveFiltersContainer {
+    margin-bottom: 0 !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
+
+.Visible {}
+.Hidden { display: none; }
+
+.ActivateFiltersBtn {
+  background-color: $scanrblueColor;
+  border: 0;
+  height: 36px;
+  width: 36px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.FilterHeaders {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.deleteFilter {
+  max-width: 100%;
+  background-color: white;
+  color: $scanrblueColor;
+}
+.deleteFilterTxt {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.closeIcon:hover {
+  cursor: pointer;
+}

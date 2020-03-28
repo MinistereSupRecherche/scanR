@@ -1,0 +1,68 @@
+@import '../../../style.scss';
+
+.TeamAndProjectPage {
+  padding: 0;
+  margin: 0;
+
+  .Content {
+    padding: 20px 0 ;
+    background-color: #E9ECF1;
+    border-radius: 5px  ;
+    color: $textColor;
+  }
+  
+  .Content2 {
+    padding: 20px 0 ;
+    background-color: $scanrdeepblueColor;
+    border-radius: 5px  ;
+    color: white;
+    h2 {
+      color: white !important;
+    }
+  }
+  
+  .Content3 {
+    padding: 20px 0 ;
+    background-color: $scanrblueColor;
+    border-radius: 5px  ;
+    color: white;
+    h2 {
+      color: white !important;
+    }
+    p {
+      text-align: justify;
+    }
+    a {
+      color: $scanrmiddlegreyColor;
+    }
+  }
+  
+  .Content4 {
+    padding: 20px 0 ;
+    background-color: #E9ECF1;
+    border-radius: 5px  ;
+    color: $textColor;
+    p {
+      text-align: justify;
+    }
+  }
+  
+
+  H2 {
+    color: $titleColor;
+    font-size: 1.5rem ;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  P {
+    padding-right: 80px
+  }
+
+  @media (min-width: 20px) and (max-width: 991.98px) {
+    margin: .5rem;
+
+  }
+
+}

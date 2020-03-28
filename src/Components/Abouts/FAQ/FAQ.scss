@@ -1,0 +1,39 @@
+@import '../../../style.scss';
+
+.FAQ {
+  padding: 0;
+  margin: 0;
+
+  .Title {
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: $scanrdeepblueColor;
+  }
+
+  .Content {
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    .Li {
+      list-style: none;
+    }
+
+    .Term {
+      color: $scanrdeepblueColor;
+      padding-left: 8px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      white-space: normal;
+      text-align: left;
+    }
+
+    .Definition {
+      color: $scanrdeepblueColor;
+    }
+  }
+  .ThreeCards{
+    padding:24px 16px 24px 16px;
+  }
+}

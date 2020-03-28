@@ -1,0 +1,54 @@
+@import '../../../../style.scss';
+
+.card {
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  height: 150px;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 95%;
+  vertical-align: middle;
+  padding: 8px;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.Height150 {
+  height: 150px;
+}
+.Height75 {
+  height: 75px;
+}
+
+.Image {
+  width: 250px;
+  height: 130px;
+  margin: auto;
+  padding: 10px;
+}
+
+.Logo {
+  padding-top: 16px;
+  color: $scanrgreyColor;
+}
+
+.Title {
+  color: $scanrgreyColor;
+  font-style: italic;
+  font-size: 0.9rem;
+  padding-top: 8px;
+}
+
+.Label {
+  padding: 8px;
+  color: $scanrdeepblueColor;
+  line-height: 22px;
+  font-weight: bold;
+  margin: 0;
+}

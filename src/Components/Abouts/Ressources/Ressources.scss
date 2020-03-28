@@ -1,0 +1,96 @@
+@import '../../../style.scss';
+
+.Ressources {
+  padding: 0;
+  margin: 0;
+
+  .Content {
+    padding-top: 50px;
+    padding-bottom: $otherPagesPaddingBottom;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: 50%; /* version standardisée */
+    background-color: $scanrlightgreyColor;
+    background-position:bottom 0 left 0;
+    color: $ressourceColorDark;
+    .SourcesPart {
+      padding-top:40px ;
+    }
+    .SourcesCard {
+      background-color: $bgcolormSmallCard;
+      color: white;
+      border-radius: 10px;
+      padding: 15px 15px;
+      margin: 6px;
+      height: 215px;
+      width: 215px;
+      .Title {
+      font-weight: bold;
+      padding-top: 5px ;
+      font-size: 1.1rem;
+      }
+    }
+    .SourceTitre {
+      font-size: 1.4rem;
+      padding: 5px 0;
+      font-weight: bold;
+    }
+    .SourceSource {
+      color:$ressourceColorDark;
+      font-weight: bold;
+      text-decoration-color: $ressourceUnderlineColor;
+      text-decoration-line: underline;
+      padding-left: 15px;
+    }
+    .SourceTexteGras {
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 5px 0px 5px 0px;
+      text-align: justify;
+    }
+    .SourceTextenormal {
+      font-size: 1rem;
+      font-weight: normal;
+      padding: 5px 0px 5px 0px;
+      text-align: justify;
+      color:$ressourceColorLight;
+    }
+    .SourceDemarcation {
+      margin:20px 0px 20px 0px;
+    }
+    .Utilisation {
+      padding-left: 15px;
+    }
+    .SourceCard {
+      background-color: white;
+      border-radius: 8px;
+      padding: 15px 15px;
+      margin: 3px;
+      width: 360px;
+      height: 150px;
+    }
+  }
+  .ThreeCards{
+    padding:24px 0px 24px 0px;
+    padding-bottom: $otherPagesPaddingBottom;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: 50%; /* version standardisée */
+    background-color: white;
+    background-position: top 0 right 0;
+    color: white;
+  }
+  .SourceThreeCards {
+      padding-top: 50px;
+      padding-bottom: $otherPagesPaddingBottom;
+      background-repeat: no-repeat;
+      background-attachment: relative;
+      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+      background-size: 50%; /* version standardisée */
+      background-color: white;
+      background-position: top 0 right 0;
+      color: white;
+    }
+}

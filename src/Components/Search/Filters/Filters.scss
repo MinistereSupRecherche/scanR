@@ -1,0 +1,27 @@
+@import '../../../style.scss';
+
+.Filters {
+  //position: sticky;
+  // top: 136px;
+}
+
+.FiltersContainer {
+  background-color: $scanrlightgreyColor;
+  color: $scanrdeepblueColor;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 993px) {
+  .FiltersContainer {
+    border-radius: 0px !important;
+  }
+}
+
+.FilterHeaders {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.Visible { display: block; }
+.Hidden { display: none; }

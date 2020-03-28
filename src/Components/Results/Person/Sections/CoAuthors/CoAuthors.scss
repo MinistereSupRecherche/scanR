@@ -1,0 +1,64 @@
+@import '../../../../../style.scss';
+
+.CoAuthors {
+  font-family: 'Lato', sans-serif;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: 40%; /* version standardisée */
+  background-color: #e9ecf1;
+  background-position: bottom -100% left 110%;
+}
+.CoAuthors h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.OneFourth {
+  flex: 0 1 calc(25% - 5px);
+  align-self: stretch;
+}
+
+.noListStyle {
+  list-style: none;
+}
+
+@media screen and (max-width: 60em) {
+  .OneFourth {
+    flex: 0 1 calc(50% - 5px);
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .OneFourth {
+    flex: 0 1 100%;
+  }
+}
+
+.Card {
+  border-radius: 8px;
+  text-align: center;
+  background-color: white;
+  color: $scanrdeepblueColor;
+  list-style: none;
+}
+
+.CountCard {
+  font-size: 1.3rem;
+  background-color: $personsColor;
+  font-weight: 600;
+
+}
+
+.SeeMore {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: $scanrdeepblueColor;
+}
+
+.PersonCard {
+  font-size: 1.1rem;
+  font-weight: 600;
+}

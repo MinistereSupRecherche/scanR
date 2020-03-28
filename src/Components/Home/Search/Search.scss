@@ -1,0 +1,107 @@
+@import '../../../style.scss';
+
+.database {
+  background-color: $scanrdeepblueColor;
+  color: white;
+}
+
+.mainTitle {
+  display: flex;
+  align-self: center;
+  width: 70%;
+  text-align: center;
+  > span {
+    line-height: 3rem;
+    font-weight: bold;
+    color: $scanrdeepblueColor;
+    font-size: 2.2rem;
+    font-family: "Helvetica";
+  }
+}
+.subTitle {
+  display: flex;
+  align-self: center;
+  width: 90%;
+  text-align: center;
+  > span {
+    line-height: 2rem;
+    color: $scanrdeepblueColor;
+    font-size: 1rem;
+    font-family: "Helvetica";
+  }
+}
+
+.inputBar {
+  background-color: white;
+  border: 2px solid $scanrdeepblueColor;
+  height: 45px;
+  font-size: 1em;
+  border-radius: 8px;
+  width: 100%;
+}
+.inputBar:focus {
+  border: 2px solid $scanrgreyColor;
+  outline: none;
+}
+
+.BtnSearch {
+  border-radius: 8px;
+  height: 45px;
+  width: 45px;
+}
+
+.SearchFull {
+  padding-top: $headerHeight;
+
+  .Logo {
+    width: 100%;
+    padding-top: 24px;
+  }
+
+  .SearchPerimeter {
+    color: $scanrdeepblueColor;
+    white-space: nowrap;
+  }
+  LI {
+    list-style: none;
+    display: inline;
+  }
+
+  UL {
+    padding-bottom: 16px;
+    padding-left: 0;
+    margin: 0;
+  }
+}
+
+LABEL {
+  font-size: 0.8rem;
+  margin-bottom: 2px;
+  padding-left: 8px;
+}
+
+.TitleSearchBar {
+  color: white;
+}
+
+.btn_dark_margin {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.HowTo {
+  color: $scanrdeepblueColor;
+  text-decoration: underline;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.Suggest {
+  color: $scanrdeepblueColor;
+  font-size: 0.8rem;
+
+  span {
+    margin-right: 8px;
+  }
+}

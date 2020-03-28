@@ -1,0 +1,26 @@
+{
+    "Footer.link.openData": "Données ouvertes & API",
+    "Footer.link.ressources": "Sources de données",
+    "Footer.link.contribute": "Contribuer",
+    "Footer.link.gitHub": "Github",
+
+    "Feedback.Title": "Vos retours sur scanR nous intéressent !",
+    "Feedback.Tooltip": "Vos retours sur scanR nous intéressent !",
+
+    "Footer.link.accessibility": "Accessibilité",
+    "Footer.link.glossary": "Glossaire",
+    "Footer.link.faq": "FAQ",
+    "Footer.link.generalConditions": "Mentions légales",
+
+    "Footer.link.medias": "Ils parlent de scanR",
+    "Footer.link.tutorial": "Tutoriels",
+    "Footer.link.contact": "Contact",
+    "Footer.link.team": "Le projet scanR et son équipe",
+    
+    "Footer.consentInfo": "Nous utilisons des cookies pour améliorer scanR. Ces cookies aident à collecter des informations liées à votre navigation sur notre site, et nous permettent par exemple d'estimer le nombre de visites, combien de fois les pages sont visitées ou encore quels sont les mot-clés de recherche employés. Vous pouvez les accepter ou les refuser.",
+    "Footer.consentOk": "J'accepte",
+    "Footer.consentKo": "Je refuse",
+
+    "Footer.link.ourBlog": "Notre blog",
+    "Footer.string.followUs": "Suivez-nous sur"
+}

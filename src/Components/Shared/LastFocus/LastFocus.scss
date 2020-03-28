@@ -1,0 +1,12 @@
+ @import '../../../style.scss';
+
+.LastFocus {
+  background-color: #E9ECF1;
+  box-shadow: inset 0px 15px 15px 0px rgba(33, 72, 103, 0.3) !important;
+
+  .Title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $titleColor;
+  }
+}

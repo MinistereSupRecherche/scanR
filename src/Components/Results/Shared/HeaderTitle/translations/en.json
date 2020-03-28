@@ -1,0 +1,53 @@
+{
+  "Home" : "Home",
+  "Search" : "Search",
+  "HeaderTitle.label1" : "Navigate by sections",
+
+  "entity": "Entity",
+  "entity.Portrait": "Portrait",
+  "entity.Network": "Network",
+  "entity.Team": "Team",
+  "entity.Projects": "Projects",
+  "entity.Productions": "Productions",
+  "entity.Ecosystem": "Ecosystem",
+  "entity.Evaluations": "Evaluations",
+  "entity.Awards": "Awards",
+  "entity.Similars": "Similar Entities",
+
+  "persons": "Person",
+  "persons.Informations": "Portraits",
+  "persons.Thesis": "Thesis",
+  "persons.Production": "Productions",
+  "persons.CoAuthors": "Collaborations",
+  "persons.Similars": "Personnes similaires",
+
+  "projects": "Project",
+  "projects.Informations": "Informations",
+  "projects.Financial": "Financial",
+  "projects.Programs": "Programs",
+  "projects.Description": "Description",
+  "projects.Productions": "Productions",
+  "projects.Participants": "Participants",
+  "projects.Similars": "Similar projects",
+
+
+  "thesis": "Thesis",
+  "thesis.Identity": "Thesis",
+  "thesis.AccessType": "Access type",
+  "thesis.Authors": "Linked persons",
+  "thesis.Affiliations": "Affiliations",
+  "thesis.Similars": "Similar productions",
+
+  "publication": "Publication",
+  "publication.Publication": "Publication",
+  "publication.AccessType": "Access type",
+  "publication.Authors": "Linked persons",
+  "publication.Affiliations": "Affiliations",
+  "publication.Similars": "Similar productions",
+
+  "patent": "Invention",
+  "patent.Identity": "Invention information",
+  "patent.Participants": "Inventors and applicants",
+  "patent.Depots": "Patent applications",
+  "patent.Similars": "Similar inventions"
+}

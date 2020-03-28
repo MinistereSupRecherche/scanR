@@ -1,0 +1,13 @@
+@import '../../../style.scss';
+
+.CardToPage {
+  padding-bottom: 10px ;
+  border-radius: 5px  ;
+  width: 100%;
+  height: 10rem;
+  border: none;
+
+  .Title {
+    font-size: 1.4em;
+  }
+}

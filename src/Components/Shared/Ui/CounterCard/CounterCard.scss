@@ -1,0 +1,57 @@
+@import '../../../../style.scss';
+
+.CounterCard {
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+  min-height: 160px;
+
+  .Logo {
+    padding-top: 16px;
+    color: $scanrgreyColor;
+  }
+
+  .Title {
+    color: $scanrgreyColor;
+    font-style: italic;
+    font-size: 0.9rem;
+    padding-top: 8px;
+  }
+
+  .Counter {
+    padding-top: 55px;
+    padding-bottom: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .Label {
+    padding: 8px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+}
+.Default {
+  color: $scanrdeepblueColor;
+  background-color: white;
+}
+.ScanRBlue {
+  color: white;
+  background-color: $scanrblueColor;
+}
+.Persons {
+  color: white;
+  background-color: $personColor !important;
+}
+.Productions {
+  color: white;
+  background-color: $productionColor !important;
+}
+.Entity {
+  color: $scanrdeepblueColor;
+  background-color: white !important;
+}

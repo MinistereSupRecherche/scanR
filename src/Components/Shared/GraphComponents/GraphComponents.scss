@@ -1,0 +1,54 @@
+@import '../../../style.scss';
+
+.graphCard {
+  background-color: white;
+  color: $scanrdeepblueColor;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.HorizontalBar {
+  padding: 0;
+  margin: 0;
+}
+
+.ShareComponent {
+  color: $scanrgreyColor;
+  background-color: white;
+}
+
+.Title {
+  color: $scanrdeepblueColor;
+  font-family: "lato";
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.Subtitle {
+  display: inline-block;
+  color: $scanrgreyColor;
+}
+
+.Button {
+  display: inline-block;
+  background-color: $scanrblueColor;
+  border: 0;
+  height: 36px;
+  width: 36px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .ShareTexts {
+    display: none;
+  }
+}
+
+.BtnTxt {
+  display: inline-block;
+  color: $scanrgreyColor;
+  padding-right: 2px;
+  font-weight: 600;
+}

@@ -1,0 +1,22 @@
+@import '../../../../style.scss';
+
+.ButtonToSearch {
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+
+  .Label {
+    display: inline-block;
+    padding: 0 0 0 8px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  I {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": {
+    "fr": "Chaînes scientifiques sur Youtube dans scanR",
+    "en": "Scientific Youtube channels in scanR"
+  },
+  "text": {
+    "fr": "Plusieurs personnes avec une chaîne Youtube sont indexées dans scanR, chercheurs, auteurs ou vulgarisateurs. Bien d'autres chaînes culturelles et scientifiques existent (voir notamment <a href='https://www.culture.gouv.fr/content/download/200193/file/350%20chaines%20Youtube.pdf' target='_blank'>ce rapport du Ministère de la Culture</a>), mais seules celles dont l'auteur est indexé dans scanR (via son <a href='http://www.idref.fr' target='_blank'>idref</a>) sont présentées.",
+    "en": "Several people with a Youtube channel are indexed in scanR, researchers, authors or popularizers. Many other cultural and scientific channels exist (see in particular <a href='https://www.culture.gouv.fr/content/download/200193/file/350%20chaines%20Youtube.pdf' target='_blank'>this report of the Ministry of Culture</a>), but only those whose author is indexed in scanR (via its <a href='http://www.idref.fr' target='_blank'>idref</a>) are presented."
+  },
+  "tags": {
+    "fr": ["youtube", "vulgarisation"],
+    "en": ["youtube", "popularization"]
+  },
+  "type": "youtube",
+  "api": "persons",
+  "href": "/recherche/persons?filters=%7B%22links.type%22%3A%7B%22type%22%3A%22MultiValueSearchFilter%22%2C%22op%22%3A%22any%22%2C%22values%22%3A%5B%22youtube%22,%22Youtube%22%5D%7D%2C%22awards.label%22%3A%7B%22type%22%3A%22MultiValueSearchFilter%22%2C%22op%22%3A%22not_all%22%2C%22values%22%3A%5B%22Finaliste%20du%20concours%20Ma%20th%C3%A8se%20en%20180%20secondes%22%5D%7D%7D&query=&sort&view=list",
+  "hrefX": "/recherche/persons",
+  "components": [
+    {
+      "title": {
+    "fr": "Chaînes scientifiques sur Youtube dans scanR",
+    "en": "Scientific Youtube channels in scanR"
+      },
+      "subtitle": {
+    "fr": "",
+    "en": ""
+      },
+      "api" : "persons",
+      "lexicon" : "FocusYoutube",
+      "componentType": "YoutubeList",
+      "request": {
+        "query": "",
+        "sourceFields": ["lastName", "id", "firstName", "domains", "affiliations", "links", "keywords"],
+        "pageSize": 100,
+        "filters": {
+          "links.type": {
+            "type": "MultiValueSearchFilter",
+            "op": "any",
+            "values": ["youtube", "Youtube"]
+          },
+          "awards.structureName": {
+            "type": "MultiValueSearchFilter",
+            "op": "not_all",
+            "values": ["Ma thèse en 180 secondes"]
+          }
+        }
+      }
+    }
+  ]
+}

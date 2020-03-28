@@ -1,0 +1,90 @@
+@import '../../../style.scss';
+
+.ribbon{
+  z-index: 100;
+  width: 80px;
+  // background-color:$scanrelectricblueColor;
+  background-color:$warningColor;
+  background: linear-gradient(#F70505 0%, #8F0808 100%);
+  position: fixed;
+  top: 7px;
+  left: -20px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  font-size: 12px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.HeaderScroll {
+  box-shadow: 0px 15px 15px 0px rgba(33, 72, 103, 0.5) !important;
+}
+
+.Header {
+  background-color: #fff;
+  z-index: 1010;
+  position: fixed;
+  width: 100%;
+
+  .ActiveLink {
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 4px solid $scanrblueColor;
+  }
+  .PipeLink {
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .img {
+    z-index: -1;
+    position: absolute;
+    top: 62px;
+    max-width: 180px;
+    min-width: 100px;
+    border: none;
+  }
+
+  .Link {
+    color: $scanrblueColor;
+    font-weight: 600;
+    display: inline-block;
+    margin: 8px 8px;
+    cursor: pointer;
+
+    A {
+      color: $scanrblueColor;
+    }
+    A:hover, A:focus {
+      color: $scanrdeepblueColor;
+    }
+  }
+  .Link:hover, .Link:focus {
+    color: $scanrdeepblueColor;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .Header {
+    background-color: #fff;
+    box-shadow: 0px 15px 15px 0px rgba(33, 72, 103, 0.5) !important;
+    z-index: 1010;
+    position: fixed;
+    width: 100%;
+    // padding-top: 56px;
+
+    .img {
+      display: none;
+      z-index: -1;
+      position: absolute;
+      top: -55px;
+      max-width: 180px;
+      min-width: 100px;
+      border: none;
+      background-color: #fff;
+    }
+  }
+
+}

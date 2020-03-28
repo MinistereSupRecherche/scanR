@@ -1,0 +1,527 @@
+@charset "utf-8";
+
+*, html {
+  font-family: 'Inter UI';
+}
+html, body{
+  height: 100%;
+}
+
+/* couleurs officielles */
+/* tous les prog scss sont à modifier pour intégrer ces couleurs !!!!! */
+
+/* les bleus et gris généraux de scanR*/
+$scanrblueColor : rgb(55,120,187);
+$scanrdeepblueColor : rgb(0,50,89);
+$scanrgreyColor : rgb(76,111,139);
+$scanrmiddlegreyColor : rgb(204,214,222);
+$scanrlightgreyColor : rgb(235,238,240);
+$scanrelectricblueColor : rgb(17,159,212);
+$scanrfooterBgColor : rgb(0,33,59);
+$scanrhomelightblueColor: aliceblue;
+
+/* couleurs entités */
+$entityColor : rgb(255,209,56);
+$structureColor : rgb(255,209,56);
+
+/* couleurs personnes */
+$personColor : rgb(254,119,71);
+
+/* couleurs projets */
+
+$projectgreenColor : rgb(93,217,157);
+$projectlightgreenColor : rgb(212,226,77);
+$projectmiddlegreenColor : rgb(67,190,68);
+$projectdarkgreenColor : rgb(32,118,121);
+
+/* couleurs productions */
+
+$productionColor : rgb(204,61,143);
+$productionpublicationColor : rgb(204,61,143);
+$PatentsNationalDepots : rgb(254,101,91);
+$PatentsInternationalDepots : rgba(64,26,23,0.6);
+$PatentsNoDepot : $scanrmiddlegreyColor;
+$productionthesesColor : rgb(254,173,64);
+
+/* couleurs dataviz ecosystem */
+
+$frenchentityColor : rgb(17,159,212);
+$internationalentityColor : rgb(78,196,192);
+$researchstructuresColor : rgb(255,209,56);
+$entreprisesColor : rgb(254,89,79);
+$oiColor : rgb(254,142,64);
+$publicsectorColor : rgb(254,116,173);
+$isblColor : rgb(149,82,179);
+
+/* couleur message d'alerte */
+$warningColor : rgb(236,15,1);
+
+
+/* General */
+$activeLinkButton: rgb(20, 51, 88);
+$hoverLinkButton: rgb(33, 72, 103);
+$tagsColor: rgb(56, 119, 186);
+$titleColor: rgb(20, 51, 88);
+$opendataTitleBgColor: rgb(0, 33, 59);
+$entitiesColor: rgb(235, 192, 52);
+$personsColor: rgb(254, 119, 71);
+$projectsColor: rgb(93, 217, 157);
+$publicationsColor: rgb(204, 61, 143);
+$textColor: rgb(0, 50, 89);
+$headerHeight: 56px;
+$mediaTextColor:rgb(56, 119, 186);
+
+/* OpenAccess Colors*/
+$oaOpenColor: rgb(32, 225, 104);
+$oaOpenRepositoryColor: rgb(32, 225, 104);
+$oaOpenPublisherColor: rgb(241, 225, 92);
+$oaClose: rgb(170, 170, 170);
+
+/* Blanc avec alpha 0.7*/
+$alphaWhite7: rgba(255, 255, 255, 0.7);
+
+$sanKey1 : #55BF3B;
+$sanKey2 : #90ee7e;
+
+:export {
+  scanrblueColor: $scanrblueColor;
+  scanrdeepblueColor: $scanrdeepblueColor;
+  scanrgreyColor: $scanrgreyColor;
+  scanrmiddlegreyColor: $scanrmiddlegreyColor;
+  scanrlightgreyColor: $scanrlightgreyColor;
+  scanrelectricblueColor: $scanrelectricblueColor;
+  scanrfooterBgColor: $scanrfooterBgColor;
+  entityColor: $entityColor;
+  structureColor: $structureColor;
+  structuresColor: $structureColor;
+  personColor: $personColor;
+  projectgreenColor: $projectgreenColor;
+  projectlightgreenColor: $projectlightgreenColor;
+  projectmiddlegreenColor: $projectmiddlegreenColor;
+  projectdarkgreenColor: $projectdarkgreenColor;
+  productionColor: $productionColor;
+  productionpublicationColor: $productionpublicationColor;
+
+  PatentsNationalDepots: $PatentsNationalDepots;
+  PatentsInternationalDepots: $PatentsInternationalDepots;
+  PatentsNoDepot: $PatentsNoDepot;
+
+  productionthesesColor: $productionthesesColor;
+  frenchentityColor: $frenchentityColor;
+  internationalentityColor: $internationalentityColor;
+  researchstructuresColor: $researchstructuresColor;
+  entreprisesColor: $entreprisesColor;
+  oiColor: $oiColor;
+  publicsectorColor: $publicsectorColor;
+  isblColor: $isblColor;
+  warningColor: $warningColor;
+  activeLinkButton: $activeLinkButton;
+  hoverLinkButton: $hoverLinkButton;
+  tagsColor: $tagsColor;
+  titleColor: $titleColor;
+  opendataTitleBgColor: $opendataTitleBgColor;
+  entitiesColor: $entitiesColor;
+  personsColor: $personsColor;
+  projectsColor: $projectsColor;
+  publicationsColor: $publicationsColor;
+  textColor: $textColor;
+  headerHeight: $headerHeight;
+  mediaTextColor: $mediaTextColor;
+  oaOpenColor: $oaOpenColor;
+  oaOpenRepositoryColor: $oaOpenRepositoryColor;
+  oaOpenPublisherColor: $oaOpenPublisherColor;
+  oaClose: $oaClose;
+  alphaWhite7: $alphaWhite7;
+  sanKey1: $sanKey1;
+  sanKey2: $sanKey2;
+}
+
+/* cards de couleur dans la page open data*/
+.entitiesCards {
+  background-color: $entityColor !important;
+  color: $scanrdeepblueColor !important;
+  .Button {
+    background-color: $scanrdeepblueColor;
+    color: white;
+  }
+}
+.projectsCards {
+  background-color: $projectgreenColor !important;
+  color: $scanrdeepblueColor !important;
+  .Button {
+    background-color: $scanrdeepblueColor;
+    color: white;
+  }
+}
+.personsCards {
+  background-color: $personColor !important;
+  color: $scanrdeepblueColor !important;
+  .Button {
+    background-color: $scanrdeepblueColor;
+    color: white;
+  }
+}
+.publicationsCards {
+  background-color: $productionColor !important;
+  color: $scanrdeepblueColor !important;
+  .Button {
+    background-color: $scanrdeepblueColor;
+    color: white;
+  }
+}
+.scanrdeepblueColorCards {
+  background-color: $scanrdeepblueColor !important;
+  color: white !important;
+  .Button {
+    background-color: white;
+    color: $scanrdeepblueColor;
+  }
+}
+
+.has-background-darkblue {
+  background-color: $opendataTitleBgColor;
+}
+.has-background-scanrblue {
+  background-color: $scanrblueColor;
+}
+.has-background-white {
+  background-color: white !important;
+}
+.has-background-all {
+  background-color: #e9ecf1;
+}
+.has-background-structures {
+  // background-color: $entitiesColor;
+  background-color: white;
+}
+.has-background-persons {
+  background-color: $personsColor;
+}
+.has-background-projects {
+  background-color: $projectsColor;
+}
+.has-background-publications {
+  background-color: $publicationsColor;
+}
+
+.NoGutters {
+ padding: 0;
+ margin: 0;
+}
+
+/* BANNIERES*/
+/* couleurs de bannières avec boutons */
+.BannerLight {
+  background-color: white;
+  color: $scanrdeepblueColor;
+  a {
+    color: white;
+  }
+  .Button{
+    background-color: $scanrblueColor;
+    color: white;
+  }
+  .Button:hover, .Button:focus {
+    background-color: $scanrdeepblueColor;
+    color: white;
+  }
+}
+.BannerDark {
+  background-color: $scanrblueColor;
+  color: white;
+  a {
+    color: $scanrdeepblueColor;
+  }
+  .Button {
+    background-color: white;
+    color: $scanrdeepblueColor;
+  }
+  .Button:hover, .Button:focus {
+    background-color: $scanrmiddlegreyColor;
+    color: $scanrdeepblueColor;
+  }
+}
+.BannerDeep {
+  background-color: $scanrdeepblueColor;
+  color: white;
+  a {
+    color: $scanrdeepblueColor;
+  }
+  .Button {
+    background-color: $scanrmiddlegreyColor;
+    color: $scanrdeepblueColor;
+  }
+  .Button:hover, .Button:focus {
+    background-color: white;
+    color: $scanrdeepblueColor;
+  }
+}
+
+/* HomePage */
+$bgHomePageSearch: $scanrblueColor;
+$bgDiscoverDataEsr: $scanrblueColor;
+
+/* Lexique */
+$bgLexicon: $scanrfooterBgColor;
+
+/* Footer */
+$bgFooter: $scanrfooterBgColor;
+$footerHeight: 15%;
+
+/*HeaderTitle*/
+$bgHeaderTitle : $scanrblueColor;
+$colorHeaderTitle: white;
+$sizeHeaderTitle : 2em;
+$colorBreadCrumbHeaderTitle : white;
+
+/*BreadCrumb*/
+$breadcrumb-divider: quote(">");
+
+$otherPagesPaddingTop: 90px;
+$otherPagesPaddingBottom: 90px;
+
+/*Medias*/
+$colormediaperiod:$scanrblueColor;
+
+/*Ressources*/
+$bgcolormSmallCard:$scanrblueColor;
+$ressourceColorDark:$scanrdeepblueColor;
+$ressourceColorLight:$scanrgreyColor;
+$ressourceUnderlineColor:$scanrblueColor;
+
+/*Resultats*/
+$bgColorCardButton: $scanrblueColor;
+$colorCardButton: white;
+$localisationTextTitleColor: $scanrgreyColor;
+$localisationTextColor: $scanrdeepblueColor;
+
+/*Cards*/
+$cardTitleBgColor: $scanrlightgreyColor;
+.card_dark {
+  background-color: $scanrblueColor;
+  color: white;
+  .Button {
+    background-color: white;
+    color: $scanrfooterBgColor;
+    border-radius: 5px;
+  }
+  .Button:hover {
+    background-color: $scanrgreyColor;
+    color: white;
+  }
+}
+.card_light {
+  background-color: white;
+  color: $scanrfooterBgColor;
+  .Button {
+    background-color: $scanrblueColor;
+    color: white;
+    border-radius: 5px;
+  }
+  .Button:hover {
+    background-color: $scanrgreyColor;
+    color: white;
+  }
+}
+.card_lightdark {
+  background-color: $scanrlightgreyColor;
+  color: $scanrfooterBgColor;
+  .Button {
+    background-color: $scanrblueColor;
+    color: white;
+    border-radius: 5px;
+  }
+  .Button:hover {
+    background-color: $scanrgreyColor;
+    color: white;
+  }
+}
+
+.card_darkdark {
+  background-color: $scanrfooterBgColor;;
+  color: white;
+  .Button {
+    background-color: $scanrblueColor;
+    color: white;
+    border-radius: 5px;
+  }
+  .Button:hover {
+    background-color: $scanrgreyColor;
+    color: white;
+  }
+}
+
+/*centrage de la card*/
+
+.CardCenter {
+  text-align: center;
+  vertical-align:middle;
+  margin:auto;
+  font-size: 1.4rem;
+  .Button {
+    margin: auto;
+    width: 6rem;
+  }
+}
+.InfoIcon_style {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 0.8rem;
+}
+
+.btn_dark{
+  background-color: $scanrdeepblueColor;
+  color: white;
+}
+
+.btn_scanrBlue{
+  background-color: $scanrblueColor;
+  color: white;
+  font-weight: bold;
+  max-height: 40px;
+}
+.btn_scanrBlue:hover, .btn_scanrBlue:focus{
+  background-color: $scanrgreyColor;
+  color: white;
+}
+
+.btn_scanrGrey{
+  background-color: $scanrgreyColor;
+  color: white;
+  font-weight: bold;
+}
+.btn_scanrGrey:hover, .btn_scanrGrey:focus{
+  background-color: $scanrdeepblueColor;
+  color: white;
+}
+
+.btn_scanrlightgrey{
+  background-color: $scanrlightgreyColor;
+  color: $scanrdeepblueColor;
+  font-weight: bold;
+}
+.btn_scanrlightgrey:hover, .btn_scanrlightgrey:focus{
+  background-color: $scanrgreyColor;
+  color: white;
+}
+
+/* card de logo*/
+.CardLogo {
+  width: 215px;
+  height: 215px;
+}
+
+/* ComponaentToPage */
+.Component_dark {
+  background-color: $scanrblueColor;
+  color: white;
+
+  .Button {
+    background-color: white;
+    color: $scanrfooterBgColor;
+  }
+  .Button:hover {
+    background-color: $scanrgreyColor;
+    color: white;
+  }
+}
+
+.Component_light {
+  background-color: white;
+  color: $scanrfooterBgColor;
+
+  .Button {
+    background-color: $scanrblueColor;
+    color: white;
+  }
+  .Button:hover {
+    background-color: $scanrgreyColor;
+    color: white;
+  }
+}
+
+.CardWhite {
+  border-radius: 8px;
+  background-color: white;
+  color: $scanrdeepblueColor;
+}
+.CardGrey {
+  border-radius: 8px;
+  background-color: $scanrlightgreyColor;
+  color: $scanrdeepblueColor;
+}
+
+.Tooltip_i_top_right {
+  display: inline-block;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  padding: 1px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.7rem;
+  font-style: italic;
+  background-color: rgb(0, 33, 59);
+  color: white;
+  cursor: help;
+}
+
+.Tooltip_i_top_right {
+  display: inline-block;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  padding: 1px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.7rem;
+  font-style: italic;
+  background-color: rgb(0, 33, 59);
+  color: white;
+  cursor: help;
+}
+
+/* Pages de détails */
+.SquareButton {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.RectangleButton {
+  height: 2.5rem;
+}
+.NoSpace {
+  padding-left: 0;
+  padding-right: 0;
+}
+.noDataOnSection {
+  color: $scanrgreyColor;
+  font-style: italic;
+}
+.CardContainer {
+  padding: 3px;
+}
+.W50 {
+  width: 50% !important;
+  padding: 0.25em;
+}
+@media screen and (max-width: 60em) {
+  .W50 {
+    width: 100% !important;
+    padding: 0.25em;
+  }
+}
+.AlertMessageSectionHome {
+  padding-top: 24px;
+}
+.AlertMessageSection {
+  background-color: $scanrlightgreyColor;
+  padding-top: 24px;
+}
+.AlertMessage {
+  background-color: white;
+  color: $scanrdeepblueColor;
+  border: 2px solid $scanrdeepblueColor;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

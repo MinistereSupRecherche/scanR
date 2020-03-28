@@ -1,0 +1,60 @@
+@import '../../../style.scss';
+
+.SearchBar2 {
+  background-color: white;
+  border: 2px solid $scanrdeepblueColor;
+  height: 45px;
+  font-size: 1em;
+  border-radius: 8px;
+  width: 100%;
+}
+.SearchBar2:focus {
+  border: 2px solid $scanrgreyColor;
+  outline: none;
+}
+
+.BtnSearch {
+  border-radius: 8px;
+  height: 45px;
+  width: 45px;
+}
+.SearchBar {
+  padding-top: $headerHeight;
+  padding-bottom: 4px;
+  background-color: $scanrblueColor;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: top 50% left 82%;
+  border-bottom: 8px solid $scanrdeepblueColor;
+
+  .btn_dark_margin {
+    height: 45px;
+    width: 45px;
+    border-radius: 8px;
+  }
+}
+
+.onlyMobile {
+  display: none !important;
+}
+
+.Select {
+  border: 2px solid $scanrdeepblueColor;
+  background-color: $scanrlightgreyColor;
+  font-size: 1em;
+  color: $scanrdeepblueColor;
+  height: 45px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 991px) {
+  .onlyMobile {
+    display: block !important;
+  }
+  .SearchBar {
+    padding-top: 70px;
+    padding-bottom: 8px;
+    background-position: top 10% left 92%;
+  }
+}

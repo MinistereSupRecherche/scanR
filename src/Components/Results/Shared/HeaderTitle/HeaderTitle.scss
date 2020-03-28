@@ -1,0 +1,70 @@
+@import '../../../../style.scss';
+
+.NavBox {
+  min-width: 15%;
+  margin-left: 1em;
+}
+.HeaderTitle {
+  background-color: $bgHeaderTitle;
+  border-bottom: solid rgb(0, 33, 59);
+  padding-top: 75px;
+
+  .Title {
+    font-size: 2em;
+    color: $colorHeaderTitle;
+    font-weight: bold ;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 16px;
+    flex-shrink: 2;
+  }
+  .img {
+    position: absolute;
+    margin-left: 8px;
+    max-width: 250px;
+    min-width: 100px;
+  }
+  OL {
+    background-color: transparent;
+    padding-left: 0;
+    margin: 0;
+  }
+  A {
+    color: $colorHeaderTitle;
+  }
+  .ItemActive {
+    font-weight: bold;
+    color: $colorHeaderTitle;
+  }
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: #f8f9fa !important;
+  content: "/";
+}
+LABEL {
+  color: $colorHeaderTitle;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (max-width: 1540px) {
+  OL, .NavBox {
+    margin-top: 10px !important;
+  }
+}
+@media (max-width: 991px) {
+  .NavBox {
+    display: none;
+  }
+  OL {
+    margin-top: 0 !important;
+  }
+  .ColToDelete {
+    display: none;
+  }
+}
