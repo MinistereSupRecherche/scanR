@@ -12,14 +12,13 @@ Some example of search request (POST) using python:
 ```python
 import requests
 ```
-
 scanR offers two types of endpoints:
-    - a search endpoint, that takes as inputs
-        1. a query
-        2. filters to limit the scope
-        3. fields to be returned 
-    - direct object access endpoints
-    
+ - a **search endpoint** (POST), that takes as inputs
+   1. a query
+   2. filters to limit the scope
+   3. fields to be returned
+ - a **direct object access endpoint** (GET), that takes as input an identifier
+
 There is a search endpoints (POST) for each of the 4 types of objects:
  - https://scanr-api.enseignementsup-recherche.gouv.fr/api/v2/structures/search
  - https://scanr-api.enseignementsup-recherche.gouv.fr/api/v2/persons/search
